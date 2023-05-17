@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: 'Playfair Display', sans-serif; 
+  font-size: 18px;
+}
+
+.about-header {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.creators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creators .card {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.card-title {
+  color: #AF69EF;
+  font-weight: bold;
+}
+
+.brains-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  text-align: left;
+}
+
+.brains-container h2 {
+  color: #A45EE5;
+}
+
+.tech-stacks {
+  text-align: center;
+}
+
+.tech-stacks .header {
+  color: rgb(135, 162, 235);
+}
+
+.tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+#react-logo {
+  width: 200px;
+  height: 200px;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.motivation {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.motivation-text * {
+  word-wrap: normal;
+}
